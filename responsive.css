@@ -1,0 +1,209 @@
+@media only screen and (max-width: 1200px){
+  .header-section .hero-box .text{
+    left: 12%;
+  }
+  .contact-section .c-text-box{
+    width: 60%;
+  }
+  .contact-section .social-icon a i{
+    padding: 3.5%;
+  }
+}
+
+@media only screen and (max-width:1080px) {
+    .header-section .text{
+      left: 10%;
+    }
+    .header-section .shahidul{
+      width: 36rem;
+    }
+    .header-section .text h1{
+      font-size: 3rem;
+    }
+    .header-section .text h4{
+      font-size: 1.4rem;
+    }
+    .service-section .service-box{
+      line-height: 1.5;
+    }
+    .contact-section .c-text-box{
+      width: 70%;
+    }
+    .portfolio-section .content-box img{
+      height: 32rem;
+    }
+    .portfolio-section::before{
+      height: 90vh;
+    }
+    .about-section .para1{
+      margin-top: 10%;
+    }
+}
+
+@media only screen and (max-width: 720px){
+  .header-section nav{
+    display: none;
+  }
+  .hero-box .text{
+    float: none;
+    width: 100%;
+    position: unset;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    text-align: center;
+  }
+  .hero-box .text h4{
+    letter-spacing: 1.2rem;
+  }
+  .hero-box .me-image{
+    float: none;
+    width: 100%;
+    text-align: center;
+  }
+  .header-section .shahidul{
+    width: 32rem;
+  }
+  .service-section .service-box{
+    width: 70%;
+    margin: 3% auto;
+    float: none;
+  }
+  .service-section .service-content{
+    display: block;
+  }
+  .contact-section .c-text-box{
+    width: 100%;
+  }
+  .contact-section .social-icon a i{
+    padding: 5.5%;
+  }
+  .form-section form{
+    width: 100%;
+  }
+  .footer-section .row{
+    width: 70%;
+  }
+  .testimonial-section .t-text-box{
+    width: 100%;
+  }
+  .span_1_of_3{
+    width: 100%;
+    text-align: justify;
+    float: none;
+  }
+  .about-section .about-image{
+    width: 50%;
+    margin: 0 auto;
+  }
+  .about-section .span_1_of_3:nth-child(2){
+    text-align: center;
+  }
+  .para{
+    margin-top: 2%;
+  }
+  .about-section .para1{
+    margin-top: 3%;
+  }
+  .content-box{
+    float: none;
+    display: block;
+  }
+  .span_1_of_2:first-child{
+    width: 100%;
+  }
+  .span_1_of_3,
+  .content-box:nth-child(3){
+    margin-left: 0;
+    width: 70%;
+    margin: 2% auto;
+  }
+  .span_1_of_2:nth-child(2){
+    width: 100%;
+    margin-left: 0;
+  }
+  .span_1_of_2:first-child,
+  .span_1_of_2:nth-child(2){
+    width: 70%;
+    margin: 2% auto;
+  }
+  .span_1_of_3:first-child{
+    margin: 2% auto;
+  }
+  .about-section {
+    text-align: center;
+  }
+  .about-section h2::after{
+    margin: 2% auto;
+  }
+  .span_1_of_4{
+    width: 50%;
+    float: left;
+    margin-left: 0;
+    padding-left: 15%;
+  }
+}
+
+@media only screen and (max-width: 480px){
+  .header-section .me-image{
+    margin-top: 8%;
+  }
+  .portfolio-section .content-box img{
+    height: 27rem;
+  }
+  .header-section .logo-image{
+    width: 30rem;
+    margin-left: 10%;
+  }
+  .contact-section .c-text-box h2{
+    font-size: 3.5rem;
+  }
+  .contact-section .social-icon a i{
+    height: 3rem;
+    width: 3rem;
+    padding: 3.5%;
+    font-size: 1.3rem;
+  }
+  .contact-section .bottom-link a{
+    margin-left: 5%;
+  }
+  .form-section .last-name{
+    float: none;
+    width: 100%;
+  }
+  .form-section .first-name{
+    float: none;
+    width: 100%;
+  }
+  .span_1_of_4{
+    width: 100%;
+    float: none;
+    padding-left: 35%;
+    margin-top: 10%;
+  }
+}
+
+@media only screen and (max-width: 360px){
+  .header-section .text h1{
+    font-size: 2rem;
+  }
+  .hero-box .text h4{
+    letter-spacing: .5rem;
+  }
+  .header-section .shahidul{
+    width: 29rem;
+  }
+  .header-section .logo-image{
+    margin-left: 0;
+  }
+  .service-section .service-box h3{
+    font-size: 2rem;
+  }
+  .service-section .service-box p{
+    font-size: 1.5rem;
+    line-height: 1;
+    margin-top: 2%;
+  }
+  html h2{
+    font-size: 2rem;
+  }
+}
